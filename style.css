@@ -1,0 +1,29 @@
+.navbar {
+	display: inline-block;
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	background-color: #EEEEEE;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.logo, .nav_right {
+	display: inline-block;
+	height: 100%;
+
+}
+
+.nav_right {
+	position: absolute;
+	right: 10px;
+	top: 20px;
+}
+
+.nav_right > a {
+	padding: 10px;
+	top: 50%;
+}
+
+.main {
+	padding-top: 50px;
+}
