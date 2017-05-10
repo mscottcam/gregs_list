@@ -1,3 +1,7 @@
+html {
+	font-size: 18px;
+}
+
 .navbar {
 	display: inline-block;
 	position: fixed;
@@ -10,13 +14,17 @@
 .logo, .nav_right {
 	display: inline-block;
 	height: 100%;
-
+	line-height: 50px;
 }
+
 
 .nav_right {
 	position: absolute;
-	right: 10px;
-	top: 20px;
+	right: 20px;
+}
+
+.logo {
+	padding-left: 20px;
 }
 
 .nav_right > a {
@@ -24,6 +32,71 @@
 	top: 50%;
 }
 
+/* main section */
+
 .main {
-	padding-top: 50px;
+	padding-top: 70px;
+	margin-left: 70px;
 }
+
+label {
+	font-size: 0.8rem;
+
+}
+
+.search_bar {
+	height: 50px;
+	margin-top: 10px;
+}
+
+.input_bar {
+	height: 40px;
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 0;
+	font-size: 1rem;
+	width: 25%;
+	position: relative;
+
+}
+
+.img-container {
+	height: 40px;
+	display: inline-block;
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+	position: absolute;
+	margin-left: 5px;
+}
+
+.magnify {
+	height: 90%;
+}
+
+.page-buttons {
+	margin-top: 50px;
+}
+
+.page-buttons > span {
+	border: 1px solid #DDDDDD;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.search_results {
+	margin-top: 70px;
+}
+
+.result {
+	margin-bottom: 20px;
+	color: grey;
+}
+
+.result > span {
+	color: blue;
+	font-weight: 700;
+}
+
+
+
