@@ -19,17 +19,17 @@ html {
 
 
 .nav_right {
-	position: absolute;
-	right: 20px;
+	float: right;
+	padding-right: 20px;
 }
 
 .logo {
+	float: left;
 	padding-left: 20px;
 }
 
 .nav_right > a {
 	padding: 10px;
-	top: 50%;
 }
 
 /* main section */
